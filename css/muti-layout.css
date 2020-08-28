@@ -64,7 +64,6 @@ table {
   }
 .header-index{
     background-image: url(https://upload.cc/i1/2020/08/17/V5Hd9k.png);
-    width: 1024px;
     height: 560px;
 }
 .header-course{
@@ -476,7 +475,8 @@ table {
 .banner3{
   line-height: 1.5;
   position: absolute;
-  padding: 110px 200px 190px 200px;
+  top: 30%;
+  left: 20%;
   text-align: center;
 }
 .banner3 span{
@@ -506,8 +506,8 @@ table {
   height: 55px;
   border: #fff solid;
   position: absolute;
-  right: 200px;
-  top:  255px;
+  right: 0;
+  top:  145px;
   border-radius: 0px 3px 3px 0px;
 }
 .search-btn:hover{
@@ -578,7 +578,9 @@ table {
   line-height: 2;  
 }
 .form_aside-QA{
-  float: right;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end; 
 }
 .form_aside-QA input{
   width: 460px;
@@ -613,7 +615,8 @@ table {
   height: 52px;
   cursor: pointer;
   padding: 0px 5px 0px 0px;
-  margin-left: 322px;
+  /*margin-left: 322px;*/
+
   color: #fff;
 }
 .form_aside-QA .sub_btn:hover{
